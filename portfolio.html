@@ -1,0 +1,347 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="tag.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110789912-1');
+    </script>
+    <script src="home.js"></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      let url = new URL(window.location.href);
+      let email = url.searchParams.get("email");
+      email = window.persistAndQueryStorage("email", email)
+
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '191741121382084', {
+        em: email,
+      });
+      fbq('track', 'PageView');
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 400, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=191741121382084&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <meta charset="utf-8"/>
+    <meta name="description" content=" " />
+    <meta name="google-site-verification" content="2_v0QZ8OU-UI_wUXAAYICxNRpxrw18ThvXsErInPNUY" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Dream Internship</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/67b6756f21.js"></script>
+    <meta property="og:title" content=" "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:description" content=" "/>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="banner-background"></div>
+      <div class="banner-content">
+        <div id="navbar" class="navbar">
+          <a href=".."><img class="logo" src="" alt="Logo of the company "/></a>
+          <a class="tab-spacer"></a>
+          <div class="tab about-tab hide-small">
+            <div class="dropdown-spacer"></div>
+            <div class="dropdown">
+              /* drop down div for how it works , manifesto and others at the top */
+            </div>
+          </div>
+          /* link for how it works and others on top */
+          <script>
+            function togglenav() {
+              var x = document.getElementById("navbar");
+              if (x.className === "navbar") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar";
+              }
+            }
+          </script>
+          <a class="menu" onclick="togglenav()">&#9776;</a>
+        </div>
+        <h1 class="banner-title">LAND YOUR DREAM RESEARCH INTERNSHIP</h1>
+        <h2 class="banner-subtitle">A career accelerator for students and young professionals that's <b>free until you're hired</b></h2>
+        <div class="apply-form">
+          <a href="apply"><button class="apply-button">Get Started</button></a>
+          <a class="apply-button-alt hide-small" href="#press">Learn More <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <p class="footnote">Limited capacity in the next cohort of fellows. <a class="apply-early" href="apply"><b>Sign up early</b></a> to avoid the waitlist.</p>
+    </div>
+    <div class="press" id="press">
+      <div class="show-small mobile-border"></div>
+      <span class="hired"> Our fellows work at: </span>
+      <img class="company company-1" src="chicago.svg" alt="Logo of univ."/>
+      <img class="company company-2" src="chicago.svg" alt="Logo of univ."/>
+      <img class="company" src="chicago.svg" alt="Logo of univ."/>
+    </div>
+    <div class="about">
+      <div class="container">
+        <p class="title">What is INStAKART?</p>
+        <p class="subtitle"> Starapping invests in university students or young professionals by providing
+                             personalized advice and training on how to get the best possible internship.
+                             Starapping invests in university students or young professionals by providing
+                             personalized advice and training on how to get the best possible internship.</p>
+        <div class="column track-column">
+          <img src="learnfrombest.svg" alt="Icon representing learning from the best"/>
+          <h1>Learn From the Best</h1>
+          <p>We've brought together only the best
+advisors fromr top universities, big and small.</p>
+        </div>
+        <div class="column track-column">
+          <img src="time.svg" alt="Icon representing sessions anywhere and anytime"/>
+          <h1>Anywhere and Anytime</h1>
+          <p>Learn online with live video sessions
+tailored to suit your schedule, including
+unlimited support whenever you want.</p>
+        </div>
+        <div class="column track-column">
+          <img src="personal.svg" alt="Icon representing personalization"/>
+          <h1>1-on-1 Personalization</h1>
+          <p>Have 1-on-1s and small groups with
+your advisor, who works with you
+face-to-face every week until you get hired.</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials">
+      <p class="title">OUR FELLOWS <i class="fa fa-heart"></i> US</p>
+      <p class="subtitle">We've helped all types of students launch their careers</p>
+      <div class="container">
+        <div style="max-width: 600px; margin: auto; margin: 50px auto 25px;">
+          <div class="testimonial-video">
+            <iframe src="man.svg"><iframe src="play.svg"></iframe></iframe>
+          </div>
+        </div>
+        <div class="testimonial-column">
+          <div class="testimonial">
+            <img class="testimonial-logo" src="chicago.svg" alt="Logo of Google"/>
+            <img class="testimonial-img" src="conor.svg" alt="Profile picture of Pathrise alumnus"/>
+            <div class="testimonial-header">
+              <h1>Conor Livingston</h1>
+              <h2>Software Engineer</h2>
+            </div>
+            <div class="testimonial-content">
+              <p>&ldquo;“I wanted a support system an InstaKart was everything
+I could have asked for. My advisors helped me accomplish
+what would have taken me 3 years alone in less than
+3 months.”
+
+&rdquo;</p>
+            </div>
+          </div>
+          <div class="testimonial-spacer"></div>
+          <div class="testimonial">
+            <img class="testimonial-logo" src="chicago.svg" alt="Logo of Google"/>
+            <img class="testimonial-img" src="conor.svg" alt="Profile picture of Pathrise alumnus"/>
+            <div class="testimonial-header">
+              <h1>Conor Livingston</h1>
+              <h2>Software Engineer</h2>
+            </div>
+            <div class="testimonial-content">
+              <p>&ldquo;“I wanted a support system an InstaKart was everything
+I could have asked for. My advisors helped me accomplish
+what would have taken me 3 years alone in less than
+3 months.”
+
+&rdquo;</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-column">
+          <div class="testimonial">
+            <img class="testimonial-logo" src="chicago.svg" alt="Logo of Google"/>
+            <img class="testimonial-img" src="conor.svg" alt="Profile picture of Pathrise alumnus"/>
+            <div class="testimonial-header">
+              <h1>Conor Livingston</h1>
+              <h2>Software Engineer</h2>
+            </div>
+            <div class="testimonial-content">
+              <p>&ldquo;“I wanted a support system an InstaKart was everything
+I could have asked for. My advisors helped me accomplish
+what would have taken me 3 years alone in less than
+3 months.”
+
+&rdquo;</p>
+            </div>
+          </div>
+          <div class="testimonial-spacer"></div>
+          <div class="testimonial dropbox-container">
+            <img class="testimonial-logo" src="chicago.svg" alt="Logo of Google"/>
+            <img class="testimonial-img" src="conor.svg" alt="Profile picture of Pathrise alumnus"/>
+            <div class="testimonial-header">
+              <h1>Conor Livingston</h1>
+              <h2>Software Engineer</h2>
+            </div>
+            <div class="testimonial-content">
+              <p>&ldquo;“I wanted a support system an InstaKart was everything
+I could have asked for. My advisors helped me accomplish
+what would have taken me 3 years alone in less than
+3 months.”
+
+&rdquo;</p>
+            </div>
+          </div>
+        </div>
+        <p class="footnote">We've worked with over a hundred fellows and counting. Read their stories <a href="stories">here</a>.</p>
+      </div>
+    </div>
+    <div class="advisors">
+      <p class="title">OUR ADVISORS</p>
+      <p class="subtitle">Our advisors come from leading universities</p>
+      <img class="hide-small" src="pen.svg" alt="Grid of logos representing where Pathrise Advisors work at"/>
+      <img class="show-small" src="pen.svg" alt="Grid of logos representing where Pathrise Advisors work at"/>
+      <p class="footnote">Our network consists of both part-time and full-time advisors. See some of their profiles <a href="advisors">here</a>.</p>
+    </div>
+    <div id="numbers" class="numbers">
+      <div class="container">
+        <p class="title">WE GET RESULTS</p>
+        <p class="subtitle">Proven to get you hired and make you more money</p>
+        <div class="column">
+          <h2>136</h2>
+          <p>alumni fellows</p>
+        </div>
+        <div class="column">
+          <h2>2.25x</h2>
+          <p>increase in interview scores</p>
+        </div>
+        <div class="column column-wide">
+          <h2>$12,600+</h2>
+          <p>above industry average compensation</p>
+        </div>
+        <div class="column">
+          <h2>100%</h2>
+          <p>free until you start work</p>
+        </div>
+      </div>
+    </div>
+    <div class="syllabus">
+      <p class="title">PROGRAM OVERVIEW</p>
+      <p class="subtitle">A general overview of our core modules and schedule</p>
+      <ul>
+        <li>
+          <span>WEEK 1</span>
+          <i class="circle"></i>
+          <h1>Meet Your 1-on-1 Advisor</h1>
+          <p>You'll kick off your fellowship by meeting your industry advisor. He or she will be your main point of contact throughout the Pathrise fellowship, but you'll also work with many other experts that specialize in topics like networking, interviewing and more.</p>
+        </li>
+        <li>
+          <span>WEEK 2</span>
+          <i class="circle"></i>
+          <h1>Optimize Your Resume and Online Presence</h1>
+          <p>We asked recruiters across every industry how to create a resume and portfolio destined for success. We'll teach you the best strategies we know and help you ruthlessly optimize everything from what you say to how you say it. You'll be ready to start applying for companies in our internal network within the first 2 weeks of the program.</p>
+        </li>
+        <li>
+          <span>WEEK 3</span>
+          <i class="circle"></i>
+          <h1>Networking and Pathrise Referrals</h1>
+          <p>Pathrise will help you build a powerful network that consists of our alumni, leaders and hiring managers. In many cases, we'll directly introduce you to companies and past fellows in our network who will give you an internal referral to open positions.</p>
+        </li>
+        <li>
+          <span>WEEK 4-6</span>
+          <i class="circle"></i>
+          <h1>Intensive Interview Prep</h1>
+          <p>As you start interviewing, your Pathrise advisor will help you prepare for what to expect with rigorous mock interview sessions. We'll teach you how to nail your elevator pitch and clearly articulate your story. If you expect coding, design, case study or market sizing questions, your advisor will specifically invest time in training you on how to ace even the hardest of problem-solving challenges.</p>
+        </li>
+        <li>
+          <span>WEEK 7</span>
+          <i class="circle"></i>
+          <h1>Level Up Your Experience</h1>
+          <p>If you need additional experience, we work with you on a hands-on project based on input from hundreds of hiring managers on what they like to see in their candidates. If you already have great projects, we'll help you expand, polish and present them in the most impressive way possible.</p>
+        </li>
+        <li>
+          <span>WEEK 8+</span>
+          <i class="circle"></i>
+          <h1>Salary Negotiation, Lifetime Network and More</h1>
+          <p>For each offer you get, your advisor will help you negotiate for more money and better benefits. We've been through the process over and over again, on both sides of the table, so you can be sure we'll get you the best offer possible. Even after you've signed a final offer, you'll always be able to leverage our growing network of fellows.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="pricing" id="pricing">
+      <div class="container">
+        <p class="title white">WE INVEST IN YOU</p>
+        <p class="subtitle white">Don't pay for anything until you get paid first</p>
+        <div class="points white">
+          <h1>TUITION COST</h1>
+          <h2>$0 upfront + 9% of income for 1 year</h2>
+          <div class="points-content">
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Pay us if and only if you land a position with our help</p>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> It's free to withdraw in the first <b class="blue">2 weeks, no commitment</b></p>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> We cover the cost of course materials for you (<b class="blue">$1,000+</b>)</p>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Pays for itself in significantly increased comp (<b class="blue">$12,000+</b>)</p>
+            <p><i class="fa fa-check-circle" aria-hidden="true"></i> Significantly <b class="blue">reduced tuition cost</b> for internship seekers</p>
+          </div>
+        </div>
+        <!-- <p class="footnote white footnote-small">*IN THE CASE OF INTERNSHIPS, THE FOLLOWING NOTE IS EXTREMELY IMPORTANT:</p>
+        <p class="footnote white">For internships, fellows pay back 7% of their <i>equivalent annual salary</i></p> -->
+      </div>
+    </div>
+    <div class="questions-home">
+      <div class="container">
+        <p class="title">TOP QUESTIONS</p>
+        <p class="subtitle">You probably have some questions &mdash; we have answers</p>
+        <h1>Is Pathrise really worth 9% of my salary for a year?</h1>
+        <p class="answer-home">We understand that 9% is a big commitment, but we have to emphasize that every fellow that participates in Pathrise improves their job seeking prospects by astronomically more than just 9%. Beyond just getting you better opportunities with higher salaries, our negotiation advice alone can account for a salary increase of over 10%. Every single part of our program, from teaching you how to do outreach that will 4X your response rate (5% to 20%) to interview preparation that improves your coding test scores by at least 50%, is designed to statistically improve your job prospects way more than what you commit in return.</p>
+        <h1>How much of a time commitment is the accelerator?</h1>
+        <p class="answer-home">Though the specific timing varies for each individual, you can expect the Pathrise program to take 10 hours a week until you get hired (including your actual interviews). Most of our fellows apply for positions, interview, hear back and sign a final offer within 3 months, but we are willing to support you for as long as you need to get hired, as long as you are still committed. We expect our fellows to be consistently committed to the program, but are happy to be flexible during hectic times, like before a big exam or project deadline.</p>
+        <h1>Can I focus more on the topics that are the most helpful to me?</h1>
+        <p class="answer-home">Of course! The Pathrise program is completely personalized to your unique situation. Because our fellows have ranged from undergrads looking for a summer internship to PhDs looking to enter a specific industry, we heavily modify the curriculum to suit individual circumstances. We never give you busywork. Instead, we invest that saved time into helping you with the other parts of the job seeking process you could use more help with.</p>
+        <p class="footnote">Got more questions? Read our FAQ or contact us <a href="help">here</a>.</p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="apply-form">
+        <span>Land Your Dream Job</span><a href="apply"><button class="apply-button">Get Started</button></a>
+      </div>
+      <div class="footer-bar">
+        <a href=".."><img class="logo" src="img/logo.svg" alt="Logo of the company Pathrise"/></a>
+        <a class="footer-tab left" href="manifesto">MANIFESTO</a>
+        <a class="footer-tab left" href="overview">ABOUT</a>
+        <a class="footer-tab left" href="help">HELP</a>
+        <a class="footer-tab left" href="apply">GET STARTED</a>
+        <a class="footer-tab" href="terms">TERMS</a>
+        <a class="footer-tab" href="privacy">PRIVACY</a>
+        <a href="https://www.facebook.com/pathriseio/" target="_blank" class="footer-tab fa fa-facebook footer-social"></a>
+        <a href="https://twitter.com/pathriseio" target="_blank" class="footer-tab fa fa-twitter footer-social"></a>
+        <a href="https://www.linkedin.com/company/pathrise" target="_blank" class="footer-tab fa fa-linkedin footer-social"></a>
+        <span class="footer-tab copyright">&copy; COPYRIGHT 2018 PATHRISE</span>
+      </div>
+    </div>
+  </body>
+</html>
