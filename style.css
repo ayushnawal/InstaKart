@@ -183,8 +183,8 @@ p a {
   position: relative;
   width: 100%;
   background: rgba(35, 115, 235, 0.9);
-  background: -webkit-linear-gradient(250deg, rgba(35, 115, 240, 0.85) 0%, rgba(35, 100, 235, 0.9) 25%, rgba(5, 40, 165, 0.95) 75%, rgba(0, 30, 155, 0.95) 100%); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(250deg, rgba(35, 115, 240, 0.85) 0%, rgba(35, 100, 235, 0.9) 25%, rgba(5, 40, 165, 0.95) 75%, rgba(0, 30, 155, 0.95) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(250deg, rgba(89, 7, 153, 0.85) 0%, rgba(89, 10, 160, 0.9) 25%, rgba(75,0,130, 0.95) 75%, rgba(70, 0, 135, 0.95) 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(250deg, rgba(89, 7, 153, 0.85) 0%, rgba(89, 7, 153, 0.9) 25%, rgba(75,0,130, 0.95) 75%, rgba(70, 0, 135, 0.95) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .banner-background {
@@ -193,7 +193,7 @@ p a {
   width: 100%;
   height: 100%;
   top: 0;
-  background: url("img/banner-bg.jpg") center;
+  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NGyZeGzFlijx95hou/young-businessman-looking-through-a-large-window-at-the-city-and-cloudy-sky-the-man-opens-the-window-for-ventilation-and-leaves-a-meeting-room_safl2l0v__F0005.png") center;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ p a {
   padding: 15px 38px 17px;
   background: #fff;
   border-radius: 35px;
-  color: #197df5;
+  color: rgb(89,7,153);
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
   position: relative;
   top: 0;
@@ -566,9 +566,9 @@ i.circle {
 }
 
 .pricing {
-  background: rgb(35, 125, 235);
-  background: -webkit-linear-gradient(160deg, rgb(10, 60, 180) 0%, rgb(35, 125, 235) 100%); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(160deg, rgb(10, 60, 180) 0%, rgb(35, 125, 235) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(153,50,204);
+  background: -webkit-linear-gradient(160deg, rgb(89, 7, 153) 0%, rgb(153,50,204) 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(160deg, rgb(89, 7, 153) 0%, rgb(153,50,204) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 100px 0;
 }
 
@@ -576,7 +576,7 @@ i.circle {
   max-width: 560px;
   border-radius: 15px;
   margin: 50px auto 0;
-  background: #197df5;
+  background: rgb(153,50,250);
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -605,7 +605,7 @@ i.circle {
 }
 
 .points p i {
-  color: #197df5;
+  color: rgb(89,7,153);
   margin-top: -1px;
   padding-right: 7px;
 }
@@ -637,19 +637,19 @@ i.circle {
   opacity: 0.5;
 }
 
-.advisors {
-  padding: 100px 0 0;
-}
-
 .advisors .footnote {
   margin-top: 50px;
 }
 
 .advisors img {
-  display: block;
-  width: 100%;
-  max-width: 1000px;
+  display: flex;
+  max-width: 200px;
+  flex-direction: row;
   margin: auto;
+}
+.advisors > ayush {
+   margin: 10px;
+  padding: 20px;
 }
 
 .questions-home {
@@ -706,7 +706,7 @@ i.circle {
   top: -0.8px;
   margin: 0 3px;
   font-size: 24px !important;
-  color: #197df5;
+  color: rgb(89,7,153);
 }
 
 .testimonial-column {
@@ -832,8 +832,8 @@ i.circle {
   padding-top: 50px;
   text-align: center;
   background: rgb(35, 125, 235);
-  background: -webkit-linear-gradient(172deg, rgb(10, 60, 180) 0%, rgb(35, 125, 235) 100%); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(172deg, rgb(10, 60, 180) 0%, rgb(35, 125, 235) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(172deg, rgb(89, 7, 153) 0%, rgb(153,50,204) 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(172deg, rgb(89, 7, 153) 0%, rgb(153,50,204) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .footer-bar {
@@ -895,7 +895,7 @@ i.circle {
 }
 
 .blue {
-  color: #197df5 !important;
+  color: rgb(89,7,153) !important;
 }
 
 .light-gray {
