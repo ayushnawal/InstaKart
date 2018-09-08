@@ -481,7 +481,7 @@ p a {
 }
 
 .column h2 {
-  color: #197df5;
+  color: rgb(89,7,153);
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 60px;
@@ -510,9 +510,9 @@ p a {
   position: absolute;
   top: 0;
   left: 125px;
-  background: #197df5;
-  background: -webkit-linear-gradient(180deg, #197df5 80%, #fff 97%);
-  background: linear-gradient(180deg, #197df5 80%, #fff 97%); 
+  background: rgb(89,7,153);
+  background: -webkit-linear-gradient(180deg, rgb(89,7,153) 80%, #fff 97%);
+  background: linear-gradient(180deg, rgb(89,7,153) 80%, #fff 97%); 
   width: 5px;
   height: 100%;
 }
@@ -542,7 +542,7 @@ i.circle {
   height: 25px;
   border-radius: 25px;
   background: #fff;
-  border: 5px solid #197df5;
+  border: 5px solid rgb(89,7,153);
 }
 
 .syllabus ul h1 {
@@ -739,9 +739,9 @@ i.circle {
 }
 
 .testimonial-img {
-  width: 50px;
-  height: 50px;
-  margin: 5px 15px 5px 0;
+  width: 80px;
+  height: 80px;
+  margin: 5px 20px 5px 0;
   border-radius: 35px;
   background: #999;
 }
@@ -758,8 +758,9 @@ i.circle {
 }
 
 .testimonial-logo {
-  width: 100px;
+  width: 135px;
   display: block;
+  margin: 5px 20px 5px 0;
   position: relative;
   top: 1px;
 }
