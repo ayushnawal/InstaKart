@@ -86,14 +86,14 @@
               <a href="overview">HOW IT WORKS</a>
               <a href="stories">FELLOW STORIES</a>
               <a href="advisors">OUR ADVISORS</a>
-              <a href="about">ABOUT US</a>
+              <a href="about.html">ABOUT US</a>
               <a href="" target="_blank">CAREERS</a>
             </div>
           </div>
           <a class="tab show-small" href="overview">HOW IT WORKS</a>
           <a class="tab show-small" href="stories">FELLOW STORIES</a>
           <a class="tab show-small" href="advisors">OUR ADVISORS</a>
-          <a class="tab show-small" href="about">ABOUT US</a>
+          <a class="tab show-small" href="about.html">ABOUT US</a>
           <a class="tab" href="help">HELP</a>
           <a class="tab" href="apply">GET STARTED</a>
           <script>
@@ -108,7 +108,7 @@
           </script>
           <a class="menu" onclick="togglenav()">&#9776;</a>
         </div>
-        <h1 class="banner-title">LAND YOUR DREAM RESEARCH INTERNSHIP</h1>
+        <h1 class="banner-title">LAND YOUR DREAM RESEARCH INTERNSHIP </h1>
         <h2 class="banner-subtitle">A career accelerator for students and young professionals that's <b>free until you're hired</b></h2>
         <div class="apply-form">
           <a href="apply"><button class="apply-button">Get Started</button></a>
@@ -116,8 +116,18 @@
         </div>
       </div>
       <p class="footnote">Limited capacity in the next cohort of fellows. <a class="apply-early" href="apply"><b>Sign up early</b></a> to avoid the waitlist.</p>
+      <script>
+      var i;
+      var x = document.getElementsByClassName("banner-background");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+      </script>
     </div>
-    <div class="press" id="press">
+      <div class="press" id="press">
       <div class="show-small mobile-border"></div>
       <span class="hired"> Our fellows work at: </span>
       <img class="company company-1" src="chicago.svg" alt="Logo of univ."/>
@@ -153,13 +163,43 @@ face-to-face every week until you get hired.</p>
         </div>
       </div>
     </div>
+    <div class="syllabus">
+      <p class="title">PROGRAM OVERVIEW</p>
+      <p class="subtitle">A general overview of how it works</p>
+      <ul>
+        <li>
+          <span>1</span>
+          <i class="circle"></i>
+          <h1>Resume</h1>
+          <p>Send us your resume and cover letter at instakart@gmail.com.</p>
+        </li>
+        <li>
+          <span>2</span>
+          <i class="circle"></i>
+          <h1>Call Back</h1>
+          <p>We call you back to know more about your interests.</p>
+        </li>
+        <li>
+          <span>3</span>
+          <i class="circle"></i>
+          <h1>Mailing</h1>
+          <p>We connect you with the right professors looking for interns.</p>
+        </li>
+        <li>
+          <span>4</span>
+          <i class="circle"></i>
+          <h1>Plan your trip abroad</h1>
+          <p>Pack your bagpacks for the most memorable journey of lifetime.</p>
+        </li>
+      </ul>
+    </div> 
     <div class="testimonials">
       <p class="title">OUR FELLOWS <i class="fa fa-heart"></i> US</p>
       <p class="subtitle">We've helped all types of students launch their careers</p>
       <div class="container">
         <div style="max-width: 600px; margin: auto; margin: 50px auto 25px;">
           <div class="testimonial-video">
-            <iframe src="man.svg"><iframe src="play.svg"></iframe></iframe>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1" width="500" height="415"></iframe>
           </div>
         </div>
         <div class="testimonial-column">
@@ -243,7 +283,7 @@ what would have taken me 3 years alone in less than
       <div class="ayush"><img class="hide-small" src="chicago.svg" alt="Grid of logos representing where Pathrise Advisors work at"/></div>
       <div class="ayush"><img class="hide-small" src="mit.svg" alt="Grid of logos representing where Pathrise Advisors work at"/></div>
     </div>
-    <!--<div id="numbers" class="numbers">
+    <div id="numbers" class="numbers">
       <div class="container">
         <p class="title">WE GET RESULTS</p>
         <p class="subtitle">Proven to get you hired and make you more money</p>
@@ -252,61 +292,19 @@ what would have taken me 3 years alone in less than
           <p>alumni fellows</p>
         </div>
         <div class="column">
-          <h2>2.25x</h2>
-          <p>increase in interview scores</p>
+          <h2>136</h2>
+          <p>alumni fellows</p>
         </div>
         <div class="column column-wide">
-          <h2>$12,600+</h2>
-          <p>above industry average compensation</p>
+          <h2>136</h2>
+          <p>alumni fellows</p>
         </div>
         <div class="column">
-          <h2>100%</h2>
-          <p>free until you start work</p>
+          <h2>136</h2>
+          <p>alumni fellows</p>
         </div>
       </div>
     </div>
-    /*<div class="syllabus">
-      <p class="title">PROGRAM OVERVIEW</p>
-      <p class="subtitle">A general overview of our core modules and schedule</p>
-      <ul>
-        <li>
-          <span>WEEK 1</span>
-          <i class="circle"></i>
-          <h1>Meet Your 1-on-1 Advisor</h1>
-          <p>You'll kick off your fellowship by meeting your industry advisor. He or she will be your main point of contact throughout the Pathrise fellowship, but you'll also work with many other experts that specialize in topics like networking, interviewing and more.</p>
-        </li>
-        <li>
-          <span>WEEK 2</span>
-          <i class="circle"></i>
-          <h1>Optimize Your Resume and Online Presence</h1>
-          <p>We asked recruiters across every industry how to create a resume and portfolio destined for success. We'll teach you the best strategies we know and help you ruthlessly optimize everything from what you say to how you say it. You'll be ready to start applying for companies in our internal network within the first 2 weeks of the program.</p>
-        </li>
-        <li>
-          <span>WEEK 3</span>
-          <i class="circle"></i>
-          <h1>Networking and Pathrise Referrals</h1>
-          <p>Pathrise will help you build a powerful network that consists of our alumni, leaders and hiring managers. In many cases, we'll directly introduce you to companies and past fellows in our network who will give you an internal referral to open positions.</p>
-        </li>
-        <li>
-          <span>WEEK 4-6</span>
-          <i class="circle"></i>
-          <h1>Intensive Interview Prep</h1>
-          <p>As you start interviewing, your Pathrise advisor will help you prepare for what to expect with rigorous mock interview sessions. We'll teach you how to nail your elevator pitch and clearly articulate your story. If you expect coding, design, case study or market sizing questions, your advisor will specifically invest time in training you on how to ace even the hardest of problem-solving challenges.</p>
-        </li>
-        <li>
-          <span>WEEK 7</span>
-          <i class="circle"></i>
-          <h1>Level Up Your Experience</h1>
-          <p>If you need additional experience, we work with you on a hands-on project based on input from hundreds of hiring managers on what they like to see in their candidates. If you already have great projects, we'll help you expand, polish and present them in the most impressive way possible.</p>
-        </li>
-        <li>
-          <span>WEEK 8+</span>
-          <i class="circle"></i>
-          <h1>Salary Negotiation, Lifetime Network and More</h1>
-          <p>For each offer you get, your advisor will help you negotiate for more money and better benefits. We've been through the process over and over again, on both sides of the table, so you can be sure we'll get you the best offer possible. Even after you've signed a final offer, you'll always be able to leverage our growing network of fellows.</p>
-        </li>
-      </ul>
-    </div> -->
     <div class="pricing" id="pricing">
       <div class="container">
         <p class="title white">WE INVEST IN YOU</p>

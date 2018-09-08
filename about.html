@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="tagforabout.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110789912-1');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      let url = new URL(window.location.href);
+      let email = url.searchParams.get("email");
+      email = window.persistAndQueryStorage("email", email)
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '191741121382084', {
+        em: email,
+      });
+      fbq('track', 'PageView');
+    </script>
+    <meta charset="utf-8"/>
+    <meta name="description" content="After years of offering career advice to young professionals and students, we realized how hard it was to start your career alone. Career services today just aren't effective, especially compared to the cost of our education and how little is guaranteed in our careers after graduation. We decided to change that — so we started instakart." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>InstaKart - About</title>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aboutstyle.css">
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/67b6756f21.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta property="og:title" content="InstaKart - About"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:description" content="InstaKart is a career accelerator that helps you build real-world experience, pairs you with an industry leading mentor, teaches you how to crush your interviews and guarantees you a internship."/>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="banner-background"></div>
+      <div class="banner-content">
+        <div id="navbar" class="navbar">
+          <a href=".."><img class="logo" src="logo.svg" alt="Logo of the company Pathrise"/></a>
+          <a href=".."><img class="logo" src="name.svg" alt="Logo of the company Pathrise"/></a>
+          <a class="tab-spacer"></a>
+          <a class="tab" href="manifesto">BLOG</a>
+          <div class="tab about-tab hide-small">
+            <span class="highlighted" onclick="window.location.href='/overview';">ABOUT</span>
+            <span class="down-arrow">&#9662;</span>
+            <div class="dropdown-spacer"></div>
+            <div class="dropdown">
+              <a href="overview">HOW IT WORKS</a>
+              <a href="stories">FELLOW STORIES</a>
+              <a href="advisors">OUR ADVISORS</a>
+              <a href="about">ABOUT US</a>
+              <a href="" target="_blank">CAREERS</a>
+            </div>
+          </div>
+          <a class="tab show-small" href="overview">HOW IT WORKS</a>
+          <a class="tab show-small" href="stories">FELLOW STORIES</a>
+          <a class="tab show-small" href="advisors">OUR ADVISORS</a>
+          <a class="tab show-small" href="about">ABOUT US</a>
+          <a class="tab" href="help">HELP</a>
+          <a class="tab" href="apply">GET STARTED</a>
+          <script>
+            function togglenav() {
+              var x = document.getElementById("navbar");
+              if (x.className === "navbar") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar";
+              }
+            }
+          </script>
+          <a class="menu" onclick="togglenav()">&#9776;</a>
+        </div>
+        <h1 class="banner-title">OUR STORY</h1>
+        <h2 class="banner-subtitle">After years of offering career advice to young professionals and students,
+we realized how hard it was to start your career alone.
+Career services today just aren't effective, especially compared to the cost
+of our education and how little is guaranteed in our careers after graduation.
+We decided to change that — so we started InstaKart.</h2>
+      </div>
+    </div>
+    <div class="team">
+      <p class="title">OUR FOUNDERS</p>
+      <p class="subtitle">Extensive experience in building products for students and universities</p>
+      <div >
+        <img class="founder-img" alt="InstaKart Founder Karan Dua" src="karan.svg">
+        <div class="founder-column">
+          <div class="founder founder-left">
+            <h1>Karan Dua</h1>
+            <h2>CEO</h2>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium, totam rem aperiam,
+eaque ipsa quae ab illo inventore veritatis et quasi architecto
+beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur aut odit aut fugit, sed quia
+consequuntur magni dolores eos qui ratione voluptatem
+sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+ quia dolor sit amet,
+consectetur, adipisci velit, sed quia id ex ea commodi consequatur
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="founder-column hide-small">
+          <div class="founder founder-right">
+            <h1>Derrick Mar</h1>
+            <h2>CTO & TECHNICAL ADVISOR</h2>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium, totam rem aperiam,
+eaque ipsa quae ab illo inventore veritatis et quasi architecto
+beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur aut odit aut fugit, sed quia
+consequuntur magni dolores eos qui ratione voluptatem
+sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+ quia dolor sit amet,
+consectetur, adipisci velit, sed quia id ex ea commodi consequatur
+            </p>
+          </div>
+        </div>
+        <img class="founder-img" alt="InstaKart Founder " src="karan.svg">
+        <div class="founder-column show-small">
+          <div class="founder founder-left">
+            <h1>Derrick Mar</h1>
+            <h2>CTO & TECHNICAL ADVISOR</h2>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium, totam rem aperiam,
+eaque ipsa quae ab illo inventore veritatis et quasi architecto
+beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur aut odit aut fugit, sed quia
+consequuntur magni dolores eos qui ratione voluptatem
+sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+ quia dolor sit amet,
+consectetur, adipisci velit, sed quia id ex ea commodi consequatur
+            </p>
+          </div>
+        </div>
+        <p class="footnote">Other advisors consist of a select group of full-time and part-time industry leaders. Learn about them <a href="advisors">here</a>.</p>
+      </div>
+    </div>
+    <!--<div class="belief">
+      <p class="title">WHAT WE BELIEVE</p>
+      <p class="subtitle">The driving beliefs behind Pathrise are listed in our manifesto</p>
+      <a href="manifesto"><button class="manifesto-button">Read Manifesto</button></a>
+    </div>-->
+    <div class="investors">
+      <p class="title">OUR INVESTORS</p>
+      <p class="subtitle">We're backed and supported by notable investors</p>
+      <img class="investor" src="chicago.svg" alt="Logo of Pathrise investor Y Combinator"/>
+      <img class="investor" src="mit.svg" alt="Logo of Pathrise investor GoAhead"/>
+      <img class="investor" src="pen.svg" alt="Logo of Pathrise investor Berkeley Haas"/>
+      <img class="investor" src="penn.svg" alt="Logo of Pathrise investor WTI"/>
+    </div>
+    <div class="connect">
+      <p class="title">CONNECT WITH US</p>
+      <p class="subtitle">Explore our social media channels to get to know us</p>
+      <a href="" target="_blank" class="fa fa-facebook"></a>
+      <a href="" target="_blank" class="fa fa-twitter"></a>
+      <a href="" target="_blank" class="fa fa-linkedin"></a>
+    </div>
+    <div class="footer">
+      <div class="apply-form">
+        <span>Land Your Dream Internship</span><a href="apply"><button class="apply-button">Get Started</button></a>
+      </div>
+      <div class="footer-bar">
+        <a href=".."><img class="logo" src="logo.svg" alt="Logo of the company InstaKart"/></a>
+        <a href=".."><img class="logo" src="name.svg" alt="Logo of the company InstaKart"/></a>
+        <a class="footer-tab left" href="manifesto">BLOG</a>
+        <a class="footer-tab left" href="overview">ABOUT</a>
+        <a class="footer-tab left" href="help">HELP</a>
+        <a class="footer-tab left" href="apply">GET STARTED</a>
+        <a class="footer-tab" href="terms">TERMS</a>
+        <a class="footer-tab" href="privacy">PRIVACY</a>
+        <a href="" target="_blank" class="footer-tab fa fa-facebook footer-social"></a>
+        <a href="" target="_blank" class="footer-tab fa fa-twitter footer-social"></a>
+        <a href="" target="_blank" class="footer-tab fa fa-linkedin footer-social"></a>
+        <span class="footer-tab copyright">&copy; COPYRIGHT 2018 INSTAKART</span>
+      </div >
+    </div>
+  </body>
+</html>
