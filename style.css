@@ -86,7 +86,10 @@ p a {
   padding: 20px 0 72px;
   margin: auto;
   text-align: right;
-  font-size: 0;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .tab {
@@ -325,8 +328,8 @@ p a {
   height: 70px;
   margin: 15px 5px;
   font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 20px;
   color: #afafaf;
   padding-top: 27px;
   vertical-align: top;
@@ -644,8 +647,10 @@ i.circle {
 .advisors img {
   display: flex;
   max-width: 200px;
-  flex-direction: row;
   margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
 }
 .advisors > ayush {
    margin: 10px;
@@ -690,8 +695,51 @@ i.circle {
   padding: 0 20px 0 25px;
 }
 
+.panel {
+    padding: 0 18px;
+    margin: 10px 10px;
+    background-color: #f7f7f7;
+    max-height: 0;
+    overflow: hidden;
+    text-align: left;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel:after{
+  padding: 18px;
+}
+
 .answer-home b {
   color: #464646;
+}
+
+.accordion {
+    background-color: #eee;
+    font-size: 16px;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .testimonials {
@@ -828,7 +876,6 @@ i.circle {
 .testimonial-spacer {
   padding-top: 30px;
 }
-
 .footer {
   padding-top: 50px;
   text-align: center;
@@ -857,8 +904,8 @@ i.circle {
   color: #fff;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: bold;
+  font-size: 16px;
   letter-spacing: 0.5px;
   padding: 30px 0;
   margin-left: 30px;
